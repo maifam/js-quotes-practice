@@ -1,8 +1,8 @@
-const likesAPI = 'http://localhost:3000/quotes?_embed=likes'
+const quotesAndLikesAPI = 'http://localhost:3000/quotes?_embed=likes'
 const quoteUl = document.querySelector('#quote-list')
 const quoteForm = document.querySelector('#new-quote-form')
 
-fetch(likesAPI)
+fetch(quotesAndLikesAPI)
 .then(data => data.json())
 .then(quotesArr => iterateQuotes(quotesArr))
 
@@ -24,19 +24,19 @@ function renderQuote (quoteObj){
     likesBtn.setAttribute('class', 'btn-success')
     const deleteBtn = document.createElement('button')
     deleteBtn.setAttribute('class', 'btn-danger')
-    let quoteSpan = document.createElement('span')
+    let likeSpan = document.createElement('span')
     const editBtn = document.createElement('button')
-    editBtn.setAttribute('class', 'btn-light')
+    editBtn.setAttribute('class', 'btn-blue')
     const editSpan = document.createElement('span')
     const deleteSpan = document.createElement('span')
     
 
     editSpan.textContent = 'Edit'
     deleteSpan.textContent = 'Delete'
-    footer.textContent = `Author: ${quoteObj.author}`
-    quoteSpan.innerText = quoteObj.likes.length
+    footer.textContent = quoteObj.author
+    likeSpan.innerText = quoteObj.likes.length
     blockQuote.innerText = quoteObj.quote
-    likesBtn.append(quoteSpan)
+    likesBtn.append(likeSpan)
     editBtn.append(editSpan)
     deleteBtn.append(deleteSpan)
     blockQuote.append(ptag, footer, likesBtn, deleteBtn, editBtn)
@@ -66,11 +66,15 @@ function renderQuote (quoteObj){
             body: JSON.stringify(likeObj)
         })
         .then(data => {
-            let likes = parseInt(quoteSpan.innerText)
-            likes += 1
-            quoteSpan.innerText = likes
+            let likes = parseInt(likeSpan.innerText)
+            likes++
+            likeSpan.innerText = likes++
+            debugger
         })
+        
     })
+
+    
 
     editBtn.addEventListener('click', function(event) {
         quoteLi.append(renderEditForm(event))
@@ -93,7 +97,8 @@ quoteForm.addEventListener('submit', function(event){
     
     let newQuote = { 
         author: event.target.author.value,
-        quote: event.target.quote.value
+        quote: event.target.quote.value,
+        likes: []
     }
     renderQuote(newQuote)
     postNewQuote(newQuote)

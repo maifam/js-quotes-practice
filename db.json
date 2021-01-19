@@ -44,6 +44,18 @@
       "id": 10,
       "quote": "You know, failure hurts. Any kind of failure stings. If you live in the sting, you will undoubtedly fail. My way of getting past the sting is to say no, I’m just not going to let this get me down.",
       "author": "Sonia Sotomayor"
+    },
+    {
+      "author": "Gabe",
+      "quote": "this is a new quote",
+      "likes": [],
+      "id": 11
+    },
+    {
+      "author": "Mai",
+      "quote": "Follow your heart",
+      "likes": [],
+      "id": 12
     }
   ],
   "likes": [
@@ -191,6 +203,345 @@
       "quoteId": 2,
       "createdAt": 1611074451928,
       "id": 55
+    },
+    {
+      "quoteId": 4,
+      "createdAt": 1611081580195,
+      "id": 56
+    },
+    {
+      "quoteId": 4,
+      "createdAt": 1611081582097,
+      "id": 57
+    },
+    {
+      "quoteId": 4,
+      "createdAt": 1611081583175,
+      "id": 58
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1611081585731,
+      "id": 59
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1611081586586,
+      "id": 60
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1611081625567,
+      "id": 61
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1611081626444,
+      "id": 62
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1611081627737,
+      "id": 63
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1611081651339,
+      "id": 64
+    },
+    {
+      "quoteId": 6,
+      "createdAt": 1611081654558,
+      "id": 65
+    },
+    {
+      "quoteId": 8,
+      "createdAt": 1611081660261,
+      "id": 66
+    },
+    {
+      "quoteId": 9,
+      "createdAt": 1611081661611,
+      "id": 67
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1611081882789,
+      "id": 68
+    },
+    {
+      "quoteId": 10,
+      "createdAt": 1611083280658,
+      "id": 69
+    },
+    {
+      "quoteId": 10,
+      "createdAt": 1611083281435,
+      "id": 70
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1611086616660,
+      "id": 71
+    },
+    {
+      "createdAt": 1611086742752,
+      "id": 72
+    },
+    {
+      "createdAt": 1611086743392,
+      "id": 73
+    },
+    {
+      "createdAt": 1611086743630,
+      "id": 74
+    },
+    {
+      "createdAt": 1611086743810,
+      "id": 75
+    },
+    {
+      "quoteId": 11,
+      "createdAt": 1611086787338,
+      "id": 76
+    },
+    {
+      "quoteId": 11,
+      "createdAt": 1611086787933,
+      "id": 77
+    },
+    {
+      "quoteId": 11,
+      "createdAt": 1611086788091,
+      "id": 78
+    },
+    {
+      "quoteId": 11,
+      "createdAt": 1611086788259,
+      "id": 79
+    },
+    {
+      "createdAt": 1611086989817,
+      "id": 80
+    },
+    {
+      "createdAt": 1611086992360,
+      "id": 81
+    },
+    {
+      "quoteId": 12,
+      "createdAt": 1611087005907,
+      "id": 82
+    },
+    {
+      "quoteId": 12,
+      "createdAt": 1611087006525,
+      "id": 83
+    },
+    {
+      "quoteId": 12,
+      "createdAt": 1611087006828,
+      "id": 84
+    },
+    {
+      "quoteId": 12,
+      "createdAt": 1611087006997,
+      "id": 85
+    },
+    {
+      "quoteId": 12,
+      "createdAt": 1611087012610,
+      "id": 86
+    },
+    {
+      "quoteId": 12,
+      "createdAt": 1611087012806,
+      "id": 87
+    },
+    {
+      "quoteId": 12,
+      "createdAt": 1611087012973,
+      "id": 88
+    },
+    {
+      "quoteId": 12,
+      "createdAt": 1611087013129,
+      "id": 89
+    },
+    {
+      "quoteId": 12,
+      "createdAt": 1611087013289,
+      "id": 90
+    },
+    {
+      "quoteId": 10,
+      "createdAt": 1611087084238,
+      "id": 91
+    },
+    {
+      "quoteId": 10,
+      "createdAt": 1611087087888,
+      "id": 92
+    },
+    {
+      "quoteId": 10,
+      "createdAt": 1611087088195,
+      "id": 93
+    },
+    {
+      "quoteId": 10,
+      "createdAt": 1611087088405,
+      "id": 94
+    },
+    {
+      "quoteId": 10,
+      "createdAt": 1611087109697,
+      "id": 95
+    },
+    {
+      "quoteId": 10,
+      "createdAt": 1611087110562,
+      "id": 96
+    },
+    {
+      "quoteId": 10,
+      "createdAt": 1611087111036,
+      "id": 97
+    },
+    {
+      "quoteId": 10,
+      "createdAt": 1611087111205,
+      "id": 98
+    },
+    {
+      "quoteId": 9,
+      "createdAt": 1611087111880,
+      "id": 99
+    },
+    {
+      "quoteId": 9,
+      "createdAt": 1611087112082,
+      "id": 100
+    },
+    {
+      "quoteId": 11,
+      "createdAt": 1611087311710,
+      "id": 101
+    },
+    {
+      "quoteId": 11,
+      "createdAt": 1611087312840,
+      "id": 102
+    },
+    {
+      "quoteId": 11,
+      "createdAt": 1611087313549,
+      "id": 103
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1611087324001,
+      "id": 104
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1611087364208,
+      "id": 105
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1611087364984,
+      "id": 106
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1611087365230,
+      "id": 107
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1611087365365,
+      "id": 108
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1611087396910,
+      "id": 109
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1611087437266,
+      "id": 110
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1611087438053,
+      "id": 111
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1611087438379,
+      "id": 112
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1611087438749,
+      "id": 113
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1611087457581,
+      "id": 114
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1611087458415,
+      "id": 115
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1611087490476,
+      "id": 116
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1611087491433,
+      "id": 117
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1611087491602,
+      "id": 118
+    },
+    {
+      "quoteId": 11,
+      "createdAt": 1611087548450,
+      "id": 119
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1611087605522,
+      "id": 120
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1611087617930,
+      "id": 121
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1611087700169,
+      "id": 122
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1611087766081,
+      "id": 123
+    },
+    {
+      "quoteId": 4,
+      "createdAt": 1611087791722,
+      "id": 124
     }
   ]
 }
